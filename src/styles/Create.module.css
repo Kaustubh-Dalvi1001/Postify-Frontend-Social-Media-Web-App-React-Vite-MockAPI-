@@ -1,0 +1,27 @@
+.createContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 17vmin;
+  min-height: 100vh;
+}
+
+.createContent {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 15vmin;
+}
+
+.createCard {
+  width: 18rem;
+}
+
+.cardContent {
+  width: 200px;
+  margin: auto;
+}
+
+.postLogo {
+  font-size: 15px;
+}

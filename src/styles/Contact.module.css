@@ -1,0 +1,18 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 6vmin;
+}
+
+.contactContent {
+  position: relative;
+  top: 15vmin;
+  flex: 1;
+}
+
+@media screen and (max-width:768px) {
+  .imgDiv {
+    width: 100vw;
+  }
+}

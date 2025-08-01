@@ -1,0 +1,18 @@
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 5vmin;
+}
+
+.aboutContent {
+  flex: 1;
+  position: relative;
+  top: 20vmin;
+}
+
+@media screen and (max-width:768px) {
+  .imgDiv{
+    width: 100%;
+  }
+}

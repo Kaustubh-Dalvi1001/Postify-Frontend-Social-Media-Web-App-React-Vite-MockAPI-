@@ -1,0 +1,16 @@
+.headerContainer {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.postContainer {
+  display: flex;
+  justify-content: space-around;
+  justify-items: center;
+  align-items: flex-end;
+  flex-wrap: wrap-reverse;
+}
+
+.postCard {
+  width: 18rem;
+}

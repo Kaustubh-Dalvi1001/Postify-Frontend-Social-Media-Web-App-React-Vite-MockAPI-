@@ -1,0 +1,32 @@
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.profileContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20vh;
+  flex: 1;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.cardFixedWidth {
+  width: 30rem;
+}
+
+.updateCard {
+  width: 18rem;
+}
+
+.profileCard {
+  width: 20rem;
+}
+
+.profileCardImg {
+  width: 30vmin;
+  margin: auto;
+}

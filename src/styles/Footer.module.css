@@ -1,0 +1,21 @@
+.footerContainer {
+  position: relative;
+  top: 12vmin;
+}
+
+.postifyImg {
+  width: 3vmin;
+}
+
+.allRights {
+  font-size: 2.5vmin;
+}
+
+.icon {
+  font-size: 4vmin;
+}
+
+.upArrow {
+  font-size: 4vmin;
+  cursor: pointer;
+}
