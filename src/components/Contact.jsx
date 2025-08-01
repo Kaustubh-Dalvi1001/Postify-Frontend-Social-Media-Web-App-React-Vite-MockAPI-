@@ -3,7 +3,7 @@ import Footer from "./Footer";
 import styles from "../styles/Contact.module.css";
 import { useState } from "react";
 import axios from "axios";
-import authorImg from "../images/kaustubh profile img.jpg";
+import authorImg from "images/kaustubh profile img.jpg";
 
 const Contact = () => {
   const url = "https://6887691e071f195ca980a325.mockapi.io/Contacts";
