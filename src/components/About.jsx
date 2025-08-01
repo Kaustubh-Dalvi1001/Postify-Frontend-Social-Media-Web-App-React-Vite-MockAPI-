@@ -9,7 +9,7 @@ const About = () => {
           <div className="row flex-lg-row-reverse align-items-center g-5 py-5 shadow-lg rounded-4 ">
             <div className={`col-10 col-sm-8 col-lg-6 ${styles.imgDiv}`}>
               <img
-                src="../images/Postify_Logo.png"
+                src="images/Postify_Logo.png"
                 className="d-block mx-lg-auto img-fluid"
                 alt="Bootstrap Themes"
                 width="700"
