@@ -3,7 +3,6 @@ import Footer from "./Footer";
 import styles from "../styles/Contact.module.css";
 import { useState } from "react";
 import axios from "axios";
-import authorImg from "images/kaustubh profile img.jpg";
 
 const Contact = () => {
   const url = "https://6887691e071f195ca980a325.mockapi.io/Contacts";
@@ -45,7 +44,7 @@ const Contact = () => {
           <div className="row flex-lg-row-reverse align-items-center g-5 py-5 shadow-lg rounded-4 ">
             <div className={`col-10 col-sm-8 col-lg-6 ${styles.imgDiv}`}>
               <img
-                src={authorImg}
+                src="/images/kaustubh_profile_img.jpg"
                 className="d-block mx-lg-auto img-fluid"
                 alt="Bootstrap Themes"
                 width="700"
