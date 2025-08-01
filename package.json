@@ -1,5 +1,6 @@
 {
   "name": "postify",
+  "homepage": "https://Kaustubh-Dalvi1001.github.io/Postify-Frontend-Social-Media-Web-App-React-Vite-MockAPI-",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
