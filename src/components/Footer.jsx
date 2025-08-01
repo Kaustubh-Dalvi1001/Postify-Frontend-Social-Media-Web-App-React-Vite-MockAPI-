@@ -13,7 +13,7 @@ const Footer = () => {
             />
           </Link>
           <span
-            className={`mb-3 mb-md-0 text-body-secondary ${styles.allRights}`}
+            className={`mb-md-0 text-body-secondary ${styles.allRights}`}
           >
             © 2025 Kaustubh Dalvi. All rights reserved.
           </span>
