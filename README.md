@@ -8,7 +8,7 @@ This is the most complete and refined project I’ve built in my web development
 
 ## 🔗 Live Demo
 
-🌐 [Click here to view the live app](https://your-live-link.com)
+🌐 [Click here to view the live app](https://kaustubh-dalvi1001.github.io/Postify-Frontend-Social-Media-Web-App-React-Vite-MockAPI-/)
 
 ---
 
@@ -16,13 +16,13 @@ This is the most complete and refined project I’ve built in my web development
 
 > Add relevant screenshots here from your `images/` folder.
 
-- ![Registration Page](images/Postify_Registration_ss.png)
-- ![Login Page](images/Postify_Login_ss.png)
-- ![Home Page](images/Postify_home_ss.png)
-- ![Create Post Page](images/Postify_create_ss.png)
-- ![About Page](images/Postify_about_ss.png)
-- ![Contact Page](images/Postify_contact_ss.png)
-- ![My Profile Page](images/Postify_Profile_ss.png)
+- ![Registration Page](public/images/Postify_Registration_ss.png)
+- ![Login Page](public/images/Postify_Login_ss.png)
+- ![Home Page](public/images/Postify_home_ss.png)
+- ![Create Post Page](public/images/Postify_create_ss.png)
+- ![About Page](public/images/Postify_about_ss.png)
+- ![Contact Page](public/images/Postify_contact_ss.png)
+- ![My Profile Page](public/images/Postify_Profile_ss.png)
 
 ---
 

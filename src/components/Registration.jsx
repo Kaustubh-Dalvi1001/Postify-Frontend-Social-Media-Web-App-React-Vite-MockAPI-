@@ -67,7 +67,7 @@ const Registration = () => {
               className={styles.postifyImg}
             />
           </div>
-          <h1 className="h3 mb-3 fw-normal text-white my-4">Registration : </h1>
+          <h1 className="h3 fw-normal text-white my-4">Registration : </h1>
           <div className="form-floating my-1">
             <input
               type="text"
