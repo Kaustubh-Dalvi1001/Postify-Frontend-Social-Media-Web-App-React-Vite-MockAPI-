@@ -62,7 +62,7 @@ const Login = () => {
             }}
           >
             <img
-              src="images/Postify_Logo_crop.png"
+              src={`${import.meta.env.BASE_URL}images/Postify_Logo_crop.png`}
               alt="Postify-logo"
               style={{ borderRadius: "2vmin", width: "55vmin" }}
             />
