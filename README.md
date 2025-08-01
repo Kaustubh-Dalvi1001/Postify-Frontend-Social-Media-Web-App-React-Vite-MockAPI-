@@ -93,6 +93,7 @@ This is the most complete and refined project I’ve built in my web development
 
 ## 📁 Folder Structure
 
+```
 Postify/
 ├── images/
 ├── node_modules/
@@ -113,6 +114,7 @@ Postify/
 ├── package.json
 ├── README.md
 └── vite.config.js
+```
 
 ---
 
