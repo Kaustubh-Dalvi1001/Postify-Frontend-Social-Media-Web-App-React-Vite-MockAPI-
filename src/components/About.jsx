@@ -122,7 +122,7 @@ const About = () => {
             </div>
             <div className={`col-10 col-sm-8 col-lg-6 ${styles.imgDiv}`}>
               <img
-                src="images/Home_page_ss.png"
+                src="images/Postify_home_ss.png"
                 className="d-block mx-lg-auto img-fluid"
                 alt="Bootstrap Themes"
                 width="700"
