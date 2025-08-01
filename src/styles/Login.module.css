@@ -1,0 +1,8 @@
+.pageLayout {
+  min-height: 100vh;
+}
+
+.postifyImg {
+  border-radius: 2vmin;
+  width: 55vmin;
+}

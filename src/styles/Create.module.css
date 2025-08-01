@@ -1,7 +1,8 @@
 .createContainer {
   display: flex;
   flex-direction: column;
-  gap: 17vmin;
+  justify-content: space-between;
+  gap: 20vmin;
   min-height: 100vh;
 }
 
@@ -11,6 +12,7 @@
   justify-content: center;
   position: relative;
   top: 15vmin;
+  flex: 1;
 }
 
 .createCard {

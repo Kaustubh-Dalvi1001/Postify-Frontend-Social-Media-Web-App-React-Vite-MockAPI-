@@ -1,6 +1,8 @@
 import axios from "axios";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import styles from "../styles/Registration.module.css";
+
 const Registration = () => {
   const RegistrationURL =
     "https://6888a7caadf0e59551bad853.mockapi.io/Registration";
@@ -55,23 +57,17 @@ const Registration = () => {
   };
 
   return (
-    <div className="bg-dark" style={{ minHeight: "100vh" }}>
+    <div className={`bg-dark ${styles.pageLayout}`}>
       <main className="form-signin w-100 m-auto container">
         <form onSubmit={handleSubmit}>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
+          <div className="d-flex justify-content-center align-items-center">
             <img
               src="images/Postify_Logo_crop.png"
               alt="Postify-logo"
-              style={{ borderRadius: "2vmin", width: "55vmin" }}
+              className={styles.postifyImg}
             />
           </div>
-          <h1 className="h3 mb-3 fw-normal text-white">Registration : </h1>
+          <h1 className="h3 mb-3 fw-normal text-white my-4">Registration : </h1>
           <div className="form-floating my-1">
             <input
               type="text"
@@ -111,7 +107,9 @@ const Registration = () => {
           <p className="text-white mt-4">
             If you already have an account please <Link to="/login">Login</Link>
           </p>
-          <p className="mt-4 mb-3 text-white">© 2017-2025</p>
+          <p className="mt-4 mb-3 text-white">
+            © 2025 Kaustubh Dalvi. All rights reserved.
+          </p>
         </form>
       </main>
     </div>
