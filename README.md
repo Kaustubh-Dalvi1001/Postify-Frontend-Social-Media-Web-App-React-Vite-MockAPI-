@@ -95,9 +95,9 @@ This is the most complete and refined project I’ve built in my web development
 
 ```
 Postify/
-├── images/
 ├── node_modules/
 ├── public/
+│     └──images/
 ├── src/
 │ ├── assets/
 │ ├── components/
